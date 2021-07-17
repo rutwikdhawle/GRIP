@@ -1,0 +1,115 @@
+.header{
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    background: rgb(17, 0, 74);
+    color: cornsilk;
+}
+.header input{
+    font-size: 15px;
+}
+.header_1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    /* padding: 10px; */
+}
+li{
+    list-style: none;
+    margin: 0px 10px;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.s_row_1{
+    /* border: 1px solid red; */
+    text-align: center;
+    height: 100vh;
+    /* width: 100%; */
+    background: crimson;
+    background: url(/WEB_Project/main.jpeg) no-repeat center center/cover;
+}
+
+.col_1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 5px blue;
+}
+.section2{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: cursive;
+    background: cornflowerblue;
+    text-shadow: 2px 2px 5px rgb(8, 4, 69);
+}
+.section3{
+    /* height: 500px; */
+    padding: 30px;
+    background: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.s3_c{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 40px;
+    /* margin-bottom: 30px; */
+    background: rgb(130, 184, 193);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px black;
+    /* border: 1px solid red; */
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: rgb(1, 1, 47);
+    
+}
+.footer a{
+    margin: 0px 10px;
+}
+.footer i{
+    font-size: 20px;
+    color: grey;
+}
+.footer i:hover{
+    color: white;
+}
